@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 HTML</title>
+</head>
+<style>
+    table.menu, th.menu, td.menu {
+  border: 1px solid black;
+  border-spacing: 10px;
+    }
+    footer{
+        justify-content: center;
+        text-align: center;
+    }
+</style>
+<body>
+    <!-- Headings -->
+    <p><h1>Pastelería BamBam<br/><img src=".\logo\logo.png" width="20%" ></h1></p>
+    <h2>Te endulzamos el día</h2>
+
+    <!-- Parrafos -->
+    <p>Aqui podrás encontrar todo lo que tenemos para tus pasteles:</p>
+    
+    <!-- Tablas -->
+    <table class="menu">
+        <tr class="menu">
+            <th class="menu"><h2><a href="#Sabores">Sabores</a></h2></th>
+            <th class="menu"><h2><a href="#Adornos">Adornos</a></h2></th>
+            <th class="menu"><h2><a href="#Pedidos">Pedidos</a></h2></th>
+        </tr>
+    </table>
+    </div>
+
+    <p id="Sabores"><h2>Sabores</h2></p>
+    <table class="sabores">
+        <tr>
+            <th>
+                <img src=".\sabores\vainilla.jpg" width="300px" height="300px" >
+                <p>Vainilla<br/>$150</p></th>
+            <th>
+                <img src=".\sabores\chocolate.jpg" width="300px" height="300px" >
+                <p>Chocolate<br/>$150</p></th>
+            <th>
+                <img src=".\sabores\limon.jpg" width="300px" height="300px" >
+                <p>Limón<br/>$150</p></th>
+            <th>
+                <img src=".\sabores\pastelCajeta.jpg" width="300px" height="300px" >
+                <p>Cajeta<br/>$150</p></th>
+        </tr>
+    </table>
+
+    <p id="Adornos"><h2>Adornos</h2></p>
+    <table class="adornos">
+        <tr>
+            <th>
+                <img src=".\adornos\velitas1.jpg" width="300px" height="300px" >
+                <p>Velitas 1<br/>$20</p></th>
+            <th>
+                <img src=".\adornos\velitas2.jpg" width="300px" height="300px" >
+                <p>Velitas 2<br/>$30</p></th>
+            <th>
+                <img src=".\adornos\velitas3.jpg" width="300px" height="300px" >
+                <p>Velitas 3<br/>$50</p></th>
+            <th>
+                <img src=".\adornos\velasLetras1.jpg" width="300px" height="300px" >
+                <p>Velitas letras 1<br/>$100</p></th>
+            <th>
+                <img src=".\adornos\velaChispas1.jpg" width="300px" height="300px" >
+                <p>Velitas Chispas 1<br/>$100</p></th>
+        </tr>
+    </table>
+
+    <p id="Pedidos"><h2>Pedidos</h2>
+        <p>Ingrese todos los datos para solicitar una cotización</p>
+        <form>
+        <label for="Nombre">Nombre completo<br/></label>
+        <input type="text" id="Nombre" name="Nombre" size="70">
+        <label for="Celular"><br/>Celular<br/></label>
+        <input type="tel" id="Celular" name="Celular" maxlength="10" >
+        <label for="Email"><br>Email<br></label>
+        <input type="email" id="Email" name="Email" size="70">
+        <label for="Sabor"><br>Sabor<br></label>
+        <input type="text" id="Sabor" name="Sabor">
+        <label for="Adorno"><br>Adorno 1<br></label>
+        <input type="text" id="Adorno1" name="Adorno1">
+        <label for="Adorno"><br>Adorno 2<br></label>
+        <input type="text" id="Adorno2" name="Adorno2">
+        <label for="Observaciones"><br>Observaciones<br></label>
+        <textarea id="Observaciones" name="Observaciones"></textarea><br>
+        <input type="submit">
+        <input type="reset">
+        </form>
+    </p>
+
+
+    <footer>Todos nuestro productos son elaborados con los mas altos estandares de calidad y limpieza.
+        Ademas nuestras materias primas son de la mas alta calidad para que<br/>
+        usted siempre disfrute del mejor sabor.
+    </footer>
+</body>
+</html>
